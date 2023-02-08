@@ -1,0 +1,41 @@
+:root {
+    --primary-text-color: #808080;
+    --secondary-text-color: #000000;
+    --primary-background-color:#ffffff;
+    --secondary-background-color:#fff5ed;
+    --primary-button-color:#ff9e2c;
+    --secondary-button-color:#ffffff;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--secondary-text-color);
+}
+
+/* about us section */
+
+.about {
+    background-color: var(--secondary-background-color);
+}
+
+/* video section */
+.video {
+    background-color: #ffd4a4;
+}
+
+/* testimonials section */
+
+.testimonials {
+    background-color: var(--secondary-background-color);
+}
