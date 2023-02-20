@@ -8,6 +8,11 @@
 }
 
 body {
+    
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.67;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
 }
@@ -20,8 +25,16 @@ h1,
 h2,
 h3,
 h4 {
+    font-family: 'Besley', serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.38;
     color: var(--secondary-text-color);
 }
+
+/* header section */
+
+
 
 /* about us section */
 
