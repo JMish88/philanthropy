@@ -32,8 +32,71 @@ h4 {
     color: var(--secondary-text-color);
 }
 
+button {
+    font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.13;
+        text-align: center;
+        color: var(--secondary-text-color);        
+        background-color: var(--primary-button-color);
+}
+
+.charity-button {
+    font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.11;
+        text-align: center;
+        color: var(--secondary-text-color);
+        background-color: var(--primary-background-color);
+}
+
+
 /* header section */
 
+.header-logo {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    color:var(--secondary-text-color);}
+
+    .list-nav {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    color:var(--secondary-text-color);
+    }
+    .list-nav:hover,
+    .list-nav:focus,
+    .current {color: var(--primary-button-color);
+    }
+
+/* hero section */
+
+.hero-title {
+    font-size:60px;
+    line-height: 1.33;
+}
+.hero-par {
+    line-height: 1.58;
+}
+.list-numbers {
+    font-family: 'Besley', serif;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1.33;
+        text-align: center;
+        color: var(--secondary-text-color);
+        }
+.letters {color: var(--primary-button-color);
+}
+.description {
+    font-size: 20px;
+        line-height: 1.1;
+}
 
 
 /* about us section */
