@@ -11,7 +11,7 @@ body {
     
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.67;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
@@ -35,8 +35,8 @@ h4 {
 button {
     font-family: 'DM Sans', sans-serif;
         font-weight: 700;
-        font-size: 16px;
-        line-height: 1.13;
+        font-size: 18px;
+        line-height: 1.11;
         text-align: center;
         color: var(--secondary-text-color);        
         background-color: var(--primary-button-color);
@@ -82,6 +82,7 @@ button {
 }
 .hero-par {
     line-height: 1.58;
+    font-size: 24px;
 }
 .list-numbers {
     font-family: 'Besley', serif;
@@ -104,11 +105,72 @@ button {
 .about {
     background-color: var(--secondary-background-color);
 }
+.section-name {
+    font-family: 'DM Sans',sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.1;
+        color: var(--primary-button-color);
+        text-transform: uppercase;
+}
+
+/* our results section */
+
+.impact-par {
+    font-family: 'Besley', serif;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 1.16;
+        color: var(--secondary-text-color);
+        
+}
+
 
 /* video section */
+
 .video {
     background-color: #ffd4a4;
 }
+.video-s-title {
+    font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.1;
+        color: var(--secondary-text-color);
+        text-transform: uppercase;
+}
+.video-par {
+    font-family: 'Besley', serif;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.38;
+        color: var(--secondary-text-color);
+}
+.video-button {
+    background-color: var(--secondary-text-color);
+    color: var(--secondary-button-color);
+}
+.video-charity {
+    font-family: 'Besley', serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.42;
+        color: var(--secondary-text-color);
+}
+
+/* how we help section */
+
+.help-title {
+    font-family: 'Besley', serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.42;
+        color: var(--secondary-text-color);
+}
+
+/* join us section */
+
+
 
 /* testimonials section */
 
