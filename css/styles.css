@@ -232,8 +232,29 @@ footer {
         background-color: var(--secondary-background-color);
         color: var(--primary-text-color);
 }
+.footer-ul {
+    color: var(--primary-text-color);
+}
+
 .footer-accent {
 font-weight: 400;
 font-size: 18px;
 color: var(--secondary-text-color);
+}
+.footer-par {
+    font-family: 'Besley', serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.42;
+        color: var(--secondary-text-color);
+}
+.footer-creators {
+    color: var(--secondary-text-color);
+}
+.footer-creators:hover,
+.footer-creators:focus {
+    color: var(--primary-button-color);
+}
+.footer-card {
+    background-color: var(--primary-button-color);
 }
