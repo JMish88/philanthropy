@@ -7,8 +7,7 @@
     --secondary-button-color:#ffffff;
 }
 
-body {
-    
+body {    
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -34,44 +33,53 @@ h4 {
 
 .main-button {
     font-family: 'DM Sans', sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.11;
-        text-align: center;
-        color: var(--secondary-text-color);        
-        background-color: var(--primary-button-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    text-align: center;
+    color: var(--secondary-text-color);        
+    background-color: var(--primary-button-color);
 }
 
 .charity-button {
     font-family: 'DM Sans', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.11;
-        text-align: center;
-        color: var(--secondary-text-color);
-        background-color: var(--primary-background-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11;
+    text-align: center;
+    color: var(--secondary-text-color);
+    background-color: var(--primary-background-color);
+}
+.contrast-button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    text-align: center;
+    color: var(--secondary-button-color);
+    background-color: var(--secondary-text-color);
+}
+.section-name {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.1;
+    color: var(--primary-button-color);
+    text-transform: uppercase;
 }
 
+a { color: var(--primary-text-color);}
+         
+    
 
 /* header section */
 
-.header-logo {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.67;
-    color:var(--secondary-text-color);}
-
-    .list-nav {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.67;
-    color:var(--secondary-text-color);
+.link {
+    color:inherit;
     }
-    .list-nav:hover,
-    .list-nav:focus,
-    .current {color: var(--primary-button-color);
+.link:hover,
+.link:focus,
+.current {color: var(--primary-button-color);
     }
 
 /* hero section */
@@ -80,7 +88,7 @@ h4 {
     font-size:60px;
     line-height: 1.33;
 }
-.hero-par {
+.hero-text {
     line-height: 1.58;
     font-size: 24px;
 }
@@ -96,7 +104,7 @@ h4 {
 }
 .description {
     font-size: 20px;
-        line-height: 1.1;
+    line-height: 1.1;
 }
 
 
@@ -105,32 +113,23 @@ h4 {
 .about {
     background-color: var(--secondary-background-color);
 }
-.section-name {
-    font-family: 'DM Sans',sans-serif;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 1.1;
-        color: var(--primary-button-color);
-        text-transform: uppercase;
-}
-.about-us-par {
-    font-family: 'DM Sans', sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.1;
-        color: var(--secondary-text-color);
+
+
+.about-us-text {
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--secondary-text-color);
 }
 
 
 /* our results section */
 
-.impact-par {
+.impact-text {
     font-family: 'Besley', serif;
-        font-weight: 700;
-        font-size: 38px;
-        line-height: 1.16;
-        color: var(--secondary-text-color);
-        
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.16;
+    color: var(--secondary-text-color);        
 }
 
 
@@ -139,41 +138,20 @@ h4 {
 .video {
     background-color: #ffd4a4;
 }
-.video-s-title {
-    font-family: 'DM Sans', sans-serif;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 1.1;
-        color: var(--secondary-text-color);
-        text-transform: uppercase;
-}
-.video-par {
-    font-family: 'Besley', serif;
-        font-weight: 700;
-        font-size: 42px;
-        line-height: 1.38;
+.video-title {
         color: var(--secondary-text-color);
 }
-.video-button {
-    background-color: var(--secondary-text-color);
-    color: var(--secondary-button-color);
-}
+
 .video-charity {
-    font-family: 'Besley', serif;
-        font-weight: 700;
         font-size: 24px;
         line-height: 1.42;
-        color: var(--secondary-text-color);
 }
 
 /* how we help section */
 
 .help-title {
-    font-family: 'Besley', serif;
-        font-weight: 700;
         font-size: 24px;
         line-height: 1.42;
-        color: var(--secondary-text-color);
 }
 
 /* join us section */
@@ -181,33 +159,27 @@ h4 {
 .join-section {
     background-color: var(--primary-button-color);
 }
-.join-button {
-    background-color: var(--secondary-text-color);
-    color: var(--secondary-button-color);
-}
+
 /* testimonials section */
 
 .testimonials {
     background-color: var(--secondary-background-color);
 }
 .testimonials-list {
-    font-family: 'DM Sans', sans-serif;
         font-weight: 700;
         font-size: 20px;
         line-height: 1.1;
         color: var(--secondary-text-color);
 }
-.testimonials-comment {
-    font-family: 'DM Sans', sans-serif;
-        font-weight: 700;
-        font-size: 18px;
+.testimonials-comment {    
+        font-weight: 700;        
         line-height: 1.1;
         color: var(--secondary-text-color);
 }
 
 /* news section */
 
-.news-par {
+.news-text {
     font-family: 'Besley', serif;
         font-weight: 700;
         font-size: 24px;
@@ -215,9 +187,7 @@ h4 {
         color: var(--secondary-text-color);
 }
 .read-more {
-    font-family: 'DM Sans', sans-serif;
         font-weight: 700;
-        font-size: 18px;
         line-height: 1.1;
         color: var(--secondary-text-color);
 }
@@ -226,22 +196,30 @@ h4 {
 
 footer {
     font-family: 'DM Sans', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.11;
-        background-color: var(--secondary-background-color);
-        color: var(--primary-text-color);
-}
-.footer-ul {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11;
+    background-color: var(--secondary-background-color);
     color: var(--primary-text-color);
 }
 
 .footer-accent {
-font-weight: 400;
-font-size: 18px;
-color: var(--secondary-text-color);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.11;
+    color: var(--secondary-text-color);
 }
-.footer-par {
+.footer-menu:hover,
+.footer-menu:focus {
+    color: var(--primary-button-color);
+}
+
+.footer-card {
+    background-color: var(--primary-button-color);
+}
+
+.footer-text {
     font-family: 'Besley', serif;
         font-weight: 700;
         font-size: 24px;
@@ -254,7 +232,4 @@ color: var(--secondary-text-color);
 .footer-creators:hover,
 .footer-creators:focus {
     color: var(--primary-button-color);
-}
-.footer-card {
-    background-color: var(--primary-button-color);
 }
