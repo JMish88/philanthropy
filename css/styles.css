@@ -23,6 +23,16 @@ body {
 h1,
 h2,
 h3,
+h4,
+ul,
+p {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;}
+
+h1,
+h2,
+h3,
 h4 {
     font-family: 'Besley', serif;
     font-weight: 700;
@@ -30,6 +40,18 @@ h4 {
     line-height: 1.38;
     color: var(--secondary-text-color);
 }
+
+.section {
+    width: 1600 px;
+    background-color:var(--primary-background-color);
+    outline: 2px solid tomato;
+}
+
+.conteiner {
+    width: 1200px;
+    padding: 0px, 24px;
+}
+
 
 .main-button {
     font-family: 'DM Sans', sans-serif;
